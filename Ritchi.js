@@ -1,6 +1,9 @@
 const config = require('./customization.json')
 const client = require('discord-rich-presence')(config.id);
 
+client.on('connected', () => {
+  console.log('connected!');
+
 if(config.fakegame === true) {
 
 client.updatePresence({
@@ -36,6 +39,8 @@ client.updatePresence({
 });
 
   }
+ }
 }
 
 
+process.on('unhandledRejection', console.error);
