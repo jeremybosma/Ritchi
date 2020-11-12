@@ -1,3 +1,5 @@
+'use strict';
+
 const config = require('./customization.json')
 const client = require('discord-rich-presence')(config.id);
 
