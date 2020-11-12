@@ -1,16 +1,15 @@
 'use strict';
 
-const client = require('discord-rich-presence')(config.id);
 const config = require('./customization.json')
-var setTitle = require('console-title');
-var center = require('center-align');
-var colors = require("colors")
+const client = require('discord-rich-presence')(config.id);
+var setTitle = require('console-title')
+var center = require('center-align')
+var colors = require("colors");
 
 client.on('connected', () => {
   console.log('this will be a terminal soon.');
-}
 
-if(config.fakegame === true) {
+if (config.fakegame === true) {
 
 client.updatePresence({
 
@@ -43,10 +42,8 @@ client.updatePresence({
   instance: true,
 
 });
-
-  }
- }
 }
+})
 
 
 process.on('unhandledRejection', console.error);
