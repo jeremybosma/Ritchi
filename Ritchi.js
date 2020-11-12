@@ -2,6 +2,9 @@
 
 const client = require('discord-rich-presence')(config.id);
 const config = require('./customization.json')
+var setTitle = require('console-title');
+var center = require('center-align');
+var colors = require("colors")
 
 client.on('connected', () => {
   console.log('this will be a terminal soon.');
