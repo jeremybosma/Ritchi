@@ -14,7 +14,7 @@ client.updatePresence({
   endTimestamp: Date.now(),
   largeImageKey: config.lIK,
   smallImageKey: config.sIK,
-  partyId: '${config.title}_party',
+  partyId: `${config.title}_party`,
   partySize: 1,
   partyMax: 1,
   matchSecret: config.title,
