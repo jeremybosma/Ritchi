@@ -23,5 +23,8 @@
   "homepage": "https://github.com/jectaine/ritchi"
 },
   "dependencies": {
-    "discord-rpc": "github:discordjs/rpc"
+    "discord-rich-presence": "^0.0.8",
+    "center-align": "^1.0.1",
+    "console-title": "^1.1.0",
+    "colors": "^1.4.0"
   }
