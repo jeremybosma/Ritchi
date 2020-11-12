@@ -13,18 +13,18 @@
     "presence",
     "rpc",
     "ine",
-    "jecta",
+    "jecta"
   ],
   "author": "! EC JΞCTA 伊根#0777",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jectaine/ritchi/issues"
   },
-  "homepage": "https://github.com/jectaine/ritchi"
-},
+  "homepage": "https://github.com/jectaine/ritchi",
   "dependencies": {
-    "discord-rich-presence": "^0.0.8",
+    "discord-rpc": "github:discordjs/rpc",
     "center-align": "^1.0.1",
-    "console-title": "^1.1.0",
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "console-title": "^1.1.0"
   }
+}
