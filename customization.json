@@ -4,5 +4,7 @@
   "title": "insert-title-here",
   "subtitle": "insert-subtitle-here",
   "lIK": "insert-large-image-key-here",
-  "sIK": "insert-small-image-key-here"
+  "lIK_name": "insert-large-image-name-here",
+  "sIK": "insert-small-image-key-here",
+  "sIK_name": "insert-large-image-name-here"
 }
