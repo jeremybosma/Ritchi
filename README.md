@@ -12,7 +12,6 @@ To customize/setup your custom status open `customization.json`. There you can p
 
 # FakeGame mode
 With Ritchi you can send invites and people will be able to send a join invite. Those thing don't actually work but it looks cool or smth.
-<img src="https://support.discord.com/hc/article_attachments/115002107832/Green_Play.png"></img> <img src="https://support.discord.com/hc/article_attachments/115003327072/img_rp_features_ask_to_join1.1.png"></img><img src="https://support.discord.com/hc/article_attachments/115002099091/Join_Group_Image.png"></img>
 # Installation.
 On Windows devices just open Ritchi.bat and if its your first time launching open Install.bat too. This Ine service is local hosted and not bound to your account-token so its not 24/7 if you turn off your device
 On other devices like linux and mac open a console and type `npm i` only execute that command on first use to install the packages and then type `node .` to start the software if node/npm is not installed on your device goto [this link](https://nodejs.org/en/) on some devices you might have to install them both apart through your operating systems package command. Like on arch `pacman -S nodejs npm`.
