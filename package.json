@@ -22,9 +22,8 @@
   },
   "homepage": "https://github.com/jectaine/ritchi",
   "dependencies": {
-    "discord-rpc": "github:discordjs/rpc",
+    "discord-rpc": "^3.1.4",
     "center-align": "^1.0.1",
     "colors": "^1.4.0",
-    "console-title": "^1.1.0"
-  }
+    "console-title": "^1.1.0"  }
 }
