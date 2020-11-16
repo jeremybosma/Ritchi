@@ -1,49 +1,69 @@
-'use strict';
+const Discord = require("discord-rpc")
+const settings = require('./customization')
+var setTitle = require('console-title');
+var center = require('center-align');
+var colors = require("colors")
 
-const config = require('./customization.json')
-const client = require('discord-rich-presence')(config.id);
-var setTitle = require('console-title')
-var center = require('center-align')
-var colors = require("colors");
+const startTimestamp = new Date()
 
-client.on('connected', () => {
-  console.log('this will be a terminal soon.');
+Discord.register(settings.id)
 
-if (config.fakegame === true) {
+const rpc = new Discord.Client({transport: "ipc"});
 
-client.updatePresence({
+  rpc.on("ready", () => {
+    console.log("  ");
+    console.log("  ");
+    console.log("  ");
+    
+    console.clear()
+    console.log("  ");
+    console.log("  ");
+    console.log("  ");
+    console.log("  ");
+    console.log("  ");
+    console.log("  ");
+    console.log(center(`
+██████  ██ ████████  ██████ ██   ██ ██ 
+██   ██ ██    ██    ██      ██   ██ ██ 
+██████  ██    ██    ██      ███████ ██ 
+██   ██ ██    ██    ██      ██   ██ ██ 
+██   ██ ██    ██     ██████ ██   ██ ██      
+    `.red, 118));
+    
+      setTitle(`RITCHI | RPC IS RUNNING`);
+    
+    console.log(center("$───────────────────────────────$".cyan, 130));
+    console.log(center(`Title: ${settings.title}`.gray, 130));
+    console.log(center(`Subtitle: ${settings.subtitle}`.gray, 130));
+    console.log(center(`Fakegame: ${settings.fakegame}`.gray, 130));
+    console.log(center("$───────────────────────────────$".cyan, 130));
+    
+    console.log("  ");
+    console.log("  ");
+    console.log("  ");
 
-  state: config.title,
-  details: config.subtitle,
-  startTimestamp: Date.now(),
-  endTimestamp: Date.now(),
-  largeImageKey: config.lIK,
-  smallImageKey: config.sIK,
-  partyId: `${config.title}_party`,
-  partySize: 1,
-  partyMax: 1,
-  matchSecret: config.title,
-  joinSecret: config.title,
-  spectateSecret: config.title,
-  instance: true,
-
-});
-
+    if(fakegame === true){
+    rpc.setActivity({
+        details: settings.title,
+        state: settings.subtitle,
+        startTimestamp,
+        largeImageKey: settings.lIK,
+        smallImageKey: settings.sIK,
+        largeImageText: settings.lIK_name,
+        smallImageText: settings.sIK_name,
+        instance: false
+    })
 } else {
-
-client.updatePresence({
-
-  state: config.title,
-  details: config.subtitle,
-  startTimestamp: Date.now(),
-  endTimestamp: Date.now(),
-  largeImageKey: config.lIK,
-  smallImageKey: config.sIK,
-  instance: true,
-
-});
+    rpc.setActivity({
+      details: settings.title,
+      state: settings.subtitle,
+      largeImageKey: settings.lIK,
+      smallImageKey: settings.sIK,
+      largeImageText: settings.lIK_name,
+      smallImageText: settings.sIK_name,
+      instance: false
+    })
 }
 })
 
-
-process.on('unhandledRejection', console.error);
+rpc.login({clientId: settings.id}).catch(console.error)
