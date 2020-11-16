@@ -1,10 +1,10 @@
 {
-  "fakegame": false, 
+  "fakegame": true, 
   "id": "777972391032782879",
   "title": "RITCHI | INE",
-  "subtitle": "Working!",
-  "lIK": "rich",
-  "lIK_name": "ritchi",
+  "subtitle": "RUNNING/WORKING",
+  "lIK": "big",
+  "lIK_name": "Ritchi",
   "sIK": "online",
-  "sIK_name": "Running!"
+  "sIK_name": "github/jectaine"
 }
