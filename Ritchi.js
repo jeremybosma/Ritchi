@@ -42,7 +42,7 @@ const rpc = new Discord.Client({transport: "ipc"});
     console.log("  ");
     console.log("  ");
 
-    if(fakegame === true){
+    if(settings.fakegame === true){
     rpc.setActivity({
         details: settings.title,
         state: settings.subtitle,
