@@ -11,7 +11,7 @@ To customize/setup your custom status open `customization.json`. There you can p
 `The name of the image will also be the name of your image key in the config file.`
 
 # FakeGame mode
-With Ritchi you can send invites and people will be able to send a join invite. Those thing don't actually work but it looks cool or smth.
+With Ritchi you can send invites and people will be able to send a join invite. Those thing don't actually work but it looks cool or smth. At the moment this is broken and since i wanted to release this project early things other than the timer will be implemented soon..
 # Installation.
 On Windows devices just open Ritchi.bat and if its your first time launching open Install.bat too. This Ine service is local hosted and not bound to your account-token so its not 24/7 if you turn off your device
 On other devices like linux and mac open a console and type `npm i` only execute that command on first use to install the packages and then type `node .` to start the software if node/npm is not installed on your device goto [this link](https://nodejs.org/en/) on some devices you might have to install them both apart through your operating systems package command. Like on arch `pacman -S nodejs npm`.
