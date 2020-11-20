@@ -51,6 +51,12 @@ const rpc = new Discord.Client({transport: "ipc"});
         smallImageKey: settings.sIK,
         largeImageText: settings.lIK_name,
         smallImageText: settings.sIK_name,
+        partyId: settings.title,
+        partySize: 1,
+        partyMax: 1,
+        matchSecret: 'ri',
+        joinSecret: 'tc',
+        spectateSecret: 'hi',
         instance: false
     })
 } else {
