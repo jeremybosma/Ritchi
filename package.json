@@ -1,30 +1,30 @@
 {
-  "name": "ritchi",
-  "description": "An Ine software. Ritchi the easy way for rich presence.",
-  "version": "1.0.0",
-  "main": "Ritchi.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jectaine/ritchi.git"
-  },
-  "keywords": [
-    "discord",
-    "rich",
-    "presence",
-    "rpc",
-    "ine",
-    "jecta"
-  ],
-  "author": "! EC JΞCTA 伊根#0777",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jectaine/ritchi/issues"
-  },
-  "homepage": "https://github.com/jectaine/ritchi",
-  "dependencies": {
-    "discord-rpc": "^3.1.4",
-    "center-align": "^1.0.1",
-    "colors": "^1.4.0",
-    "console-title": "^1.1.0"
-  }
+   "name":"ritchi",
+   "description":"An Ine software. Ritchi the easy way for rich presence.",
+   "version":"1.0.0",
+   "main":"Ritchi.js",
+   "repository":{
+      "type":"git",
+      "url":"https://github.com/jectaine/ritchi.git"
+   },
+   "keywords":[
+      "discord",
+      "rich",
+      "presence",
+      "rpc",
+      "ine",
+      "jecta"
+   ],
+   "author":"JectaINE",
+   "license":"ISC",
+   "bugs":{
+      "url":"https://github.com/jectaine/ritchi/issues"
+   },
+   "homepage":"https://github.com/jectaine/ritchi",
+   "dependencies":{
+      "discord-rpc":"^3.1.4",
+      "center-align":"^1.0.1",
+      "colors":"^1.4.0",
+      "console-title":"^1.1.0"
+   }
 }
