@@ -20,11 +20,9 @@ Now you should be able to see the status if not goto Discord > Settings > Game A
 # Requirements
 - An Windows, Linux or Mac operating system.
 - Internet connection.
-- A discord client (not the web one).
+- A installed discord client.
 - NodeJS
 - Braincells
 
 # Issues 
-If you run into any issues make sure to open one in the repo. Or dm me thru discord/9ine.
-
-# V2 COMING SOON!
+If you run into issues, its probs you. But if it really isn't refer to: discord.gg/9INE
