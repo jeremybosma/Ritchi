@@ -1,3 +1,3 @@
 @echo off
-node .
+node src/Ritchi.js
 PAUSE
