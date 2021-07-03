@@ -1,8 +1,8 @@
 # Welcome, Ritchi.
-### Your new favorite DiscordRPC. Now introducing a new UI and completely rewritten code. Ritchi V2 is widely customizable, from image to text.
+### Your new favorite DiscordRPC. Now introducing a new UI and completely rewritten code. Ritchi V2 is widely customizable, from image to text now also supporting buttons.
 -----
 ## Dependencies
-### You need nodejs and one of the official discord clients (desktop), make sure to turn your game activity on.
+### You need nodejs and one of the official discord clients (desktop), make sure to turn your game activity on otherwise it will not correctly show.
 ------
 ## Setup
 1. Please execute `Install.bat` if your not on windows open your terminal in folder and execute `npm i`
