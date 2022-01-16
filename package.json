@@ -1,9 +1,9 @@
 {
-   "main": "src/Ritchi.js",
-   "dependencies": {
-      "chalk": "^4.1.0",
-      "console-title": "^1.1.0",
-      "discord-rpc": "^4.0.1",
-      "readline": "^1.3.0"
-   }
+  "name": "Ritchi",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "discord-rpc": "^4.0.1"
+  }
 }
